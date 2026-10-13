@@ -237,6 +237,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "docetl" },
+    { name = "dotenv" },
     { name = "fastapi" },
     { name = "langfuse" },
     { name = "litellm" },
@@ -263,6 +264,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "docetl", specifier = ">=0.2" },
+    { name = "dotenv", specifier = ">=0.9.9" },
     { name = "fastapi", specifier = ">=0.115" },
     { name = "gepa", marker = "extra == 'optimization'", specifier = "==0.1.4" },
     { name = "langfuse", specifier = ">=3.0,<4" },
@@ -669,6 +671,17 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/96/e6/8f0e2040ee2c9ab4378cc732db5ec7abb0057797982393e949ee60939713/docetl-0.3.0.tar.gz", hash = "sha256:64df51cd5ad5b61a0dc94bf427a5c35de9a9a0ebe548c0a92099079c04635208", size = 417267, upload-time = "2026-06-17T03:27:33.849Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/70/ef/7a55694e5e2b8b4895e2a450cb4b24e549f1dca415d5dc85f0a44407b6ed/docetl-0.3.0-py3-none-any.whl", hash = "sha256:e5c42082cca0f14b6381f7cba3b7695cebf68b4c0a54af3c9a0b48158e8bdf24", size = 514610, upload-time = "2026-06-17T03:27:32.248Z" },
+]
+
+[[package]]
+name = "dotenv"
+version = "0.9.9"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "python-dotenv" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b2/b7/545d2c10c1fc15e48653c91efde329a790f2eecfbbf2bd16003b5db2bab0/dotenv-0.9.9-py2.py3-none-any.whl", hash = "sha256:29cf74a087b31dafdb5a446b6d7e11cbce8ed2741540e2339c69fbef92c94ce9", size = 1892, upload-time = "2025-02-19T22:15:01.647Z" },
 ]
 
 [[package]]
